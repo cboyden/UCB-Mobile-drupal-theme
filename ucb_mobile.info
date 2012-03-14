@@ -1,0 +1,17 @@
+name = UCB Mobile
+description = Mobile theme for UC Berkeley. Uses the Mobile Web Framework.
+core = 6.x
+engine = phptemplate
+
+stylesheets[all][] = css/ucb-mobile.css
+
+regions[primary_menu] = primary menu
+regions[content] = content
+regions[footer] = footer
+
+features[] = name
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = search
+features[] = favicon
+
